@@ -1,0 +1,5 @@
+FruitDict = {'Apple': 10, 'Banana': 5,'Orange':4,'Guava':6}
+ 
+print('sorted dictionary = ')
+for key in sorted(FruitDict):
+    print("%s: %s" % (key, FruitDict[key]))
