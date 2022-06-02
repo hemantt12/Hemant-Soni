@@ -1,0 +1,8 @@
+from collections import defaultdict, Counter
+ 
+mystring = 'DictExample'
+string_dict = {}
+ 
+for word in mystring:
+    string_dict[word] = string_dict.get(word, 0) + 1
+print(string_dict)
