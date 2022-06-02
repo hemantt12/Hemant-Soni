@@ -1,0 +1,26 @@
+animaldict = {
+  "animal":{
+  "name": "Dog",
+  "age":5,
+   
+  
+  },
+    "animal1":{
+  "name": "Cat",
+  "age":2,
+ 
+  
+  },
+    "animal2":{
+  "name": "Rabbit",
+  "age":1,
+  
+  
+  },
+ 
+   
+}
+ 
+animaldict["animal1"]['age'] = 5
+ 
+print(animaldict)
